@@ -320,7 +320,7 @@ fun HomeScreenLandscape(modifier: Modifier = Modifier) {
     }
 }
 
-//@Preview
+@Preview
 @Composable
 fun SearchBarPreview(showBackground: Boolean = true, backgroundColor: Long = 0xFFF5F0EE) {
     BasicLayoutsComposableTheme {
@@ -331,7 +331,7 @@ fun SearchBarPreview(showBackground: Boolean = true, backgroundColor: Long = 0xF
 
 }
 
-//@Preview
+@Preview
 @Composable
 fun AlignYourBodyElementPreview(
     showBackground: Boolean = true, backgroundColor: Long = 0xFFF5F0EE
@@ -345,7 +345,7 @@ fun AlignYourBodyElementPreview(
     }
 }
 
-//@Preview
+@Preview
 @Composable
 fun AlignYourBodyRowPreview(
     showBackground: Boolean = true, backgroundColor: Long = 0xFFF5F0EE
@@ -355,7 +355,7 @@ fun AlignYourBodyRowPreview(
     }
 }
 
-//@Preview
+@Preview
 @Composable
 fun FavoriteCollectionCardPreview(
     showBackground: Boolean = true,
@@ -369,7 +369,7 @@ fun FavoriteCollectionCardPreview(
     }
 }
 
-//@Preview
+@Preview
 @Composable
 fun FavoriteCollectionGridPreview() {
     BasicLayoutsComposableTheme {
@@ -377,7 +377,7 @@ fun FavoriteCollectionGridPreview() {
     }
 }
 
-//@Preview(showBackground = true, backgroundColor = 0xFFF5F0EE)
+@Preview(showBackground = true, backgroundColor = 0xFFF5F0EE)
 @Composable
 fun HomeSectionPreview() {
     BasicLayoutsComposableTheme {
@@ -388,7 +388,7 @@ fun HomeSectionPreview() {
 }
 
 
-//@Preview(showBackground = true, backgroundColor = 0xFFF5F0EE)
+@Preview(showBackground = true, backgroundColor = 0xFFF5F0EE)
 @Composable
 fun HomeScreenPreview() {
     BasicLayoutsComposableTheme {
